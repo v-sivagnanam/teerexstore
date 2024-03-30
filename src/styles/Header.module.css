@@ -1,0 +1,22 @@
+/* Header.module.css */
+.header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+
+.cartButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.cartIcon {
+  color: #fff;
+  font-size: 1.5rem;
+}

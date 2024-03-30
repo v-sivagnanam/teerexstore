@@ -1,0 +1,33 @@
+/* ProductCard.module.css */
+.productCard {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    max-width: 250px;
+    margin: 0 auto;
+  }
+  
+  .productCard img {
+    width: 100%;
+    max-height: 200px;
+    margin-bottom: 10px;
+  }
+  
+  .productCard h3 {
+    margin-top: 10px;
+  }
+  
+  .productCard button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .addToCartButton:hover {
+    background-color: #0056b3;
+  }
+  
