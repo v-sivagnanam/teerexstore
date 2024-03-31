@@ -2,6 +2,32 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Teerex Store
+
+Teerex Store is a simple e-commerce web application developed using React.js. It provides users with a platform to browse, search, and purchase products from a catalog. The application offers various features such as product filtering, search functionality, and shopping cart management.
+
+## Features
+
+- **Product Listing Page:** Displays a grid layout of products. Each product card contains essential information like image, name, and price.
+- **Header:** Includes a search bar for searching products and provides a shopping cart icon to view and manage the shopping cart.
+- **Filters:** Allows users to filter products based on attributes such as gender, color, price range, and type. Supports multiple filter selections for refining search results.
+- **Search:** Enables users to search for products using free text input. Matches search queries against product names, colors, and types.
+- **Product Cards:** Displays individual product details in a responsive grid layout. Each product card includes an image, name, and price.
+- **Shopping Cart:** Users can add products to the shopping cart, view and manage items in the cart, increase the quantity, or remove items from the cart. Calculates and displays the total amount of items in the cart.
+
+## Project Structure
+
+- **Components:** Contains reusable React components for building the user interface.
+- **Features:** Manages specific functionalities of the application.
+- **Redux:** Manages global state using Redux and Redux Toolkit.
+- **CSS Styles:** Utilizes CSS modules for styling components.
+
+## Getting Started
+
+1. Clone the repository:
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -39,32 +65,4 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

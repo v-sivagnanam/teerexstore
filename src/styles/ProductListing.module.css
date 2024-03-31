@@ -23,12 +23,12 @@
   }
 
   .filters {
-    order: 2; /* Move filters below cards in mobile view */
-    flex: 1; /* Take full width in mobile view */
-    margin-top: 20px; /* Add margin between filters and cards */
+    order: 0; 
+    flex: 1; 
+    margin: 20px; 
   }
 
   .cards {
-    grid-template-columns: 1fr; /* Single column for cards in mobile view */
+    grid-template-columns: 1fr; 
   }
 }
