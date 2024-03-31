@@ -3,7 +3,6 @@ import { useSelector, useDispatch } from 'react-redux';
 import { removeFromCart, updateQuantity } from '../features/cart/cartSlice';
 import styles from '../styles/ShoppingCart.module.css';
 import { MdDeleteOutline } from "react-icons/md";
-
 const ShoppingCart = () => {
   const dispatch = useDispatch();
   const items = useSelector(state => state.cart.items);
@@ -71,7 +70,7 @@ const ShoppingCart = () => {
         <p className={styles.totalText}>Total: ${total}</p>
         <button className={styles.checkoutButton}>Checkout</button>
       </div>
-    </div>
+      </div>
   );
 };
 
